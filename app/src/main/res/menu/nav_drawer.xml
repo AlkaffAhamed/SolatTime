@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navWaktu"
+            android:title="Prayer Times" />
+        <item
+            android:id="@+id/navCalendar"
+            android:title="Convert Gregorian/Hijri" />
+        <item
+            android:id="@+id/navSetCoord"
+            android:title="Set Location" />
+    </group>
+</menu>
